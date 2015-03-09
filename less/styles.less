@@ -99,8 +99,11 @@
 
 @headings-font-weight: @font-weight-bold;
 
-  .btn-primary{
+  .btn-primary, .btn-danger{
     color: @white-subtitle!important;
+  }
+  .btn-default{
+    color: @brand-primary!important;
   }
 
 
@@ -124,6 +127,20 @@ form{
     }
   }
   
+}
+
+//loader ==================================================================
+
+.loader{
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 56px;
+  padding-left: 16px;
+  line-height: 40px;
+  z-index: 2;
 }
 
 

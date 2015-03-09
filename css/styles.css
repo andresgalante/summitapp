@@ -10819,8 +10819,12 @@ select.form-control.focus {
   height: 100%;
   z-index: 100;
 }
-.btn-primary {
+.btn-primary,
+.btn-danger {
   color: rgba(255, 255, 255, 0.7) !important;
+}
+.btn-default {
+  color: #8fc049 !important;
 }
 form {
   margin: 20px 0;
@@ -10837,6 +10841,17 @@ form .togglebutton label {
 form input[type="text"],
 form input[type="number"] {
   border-bottom-color: rgba(0, 0, 0, 0.12) !important;
+}
+.loader {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 56px;
+  padding-left: 16px;
+  line-height: 40px;
+  z-index: 2;
 }
 body {
   margin-top: 76px;
