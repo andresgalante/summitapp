@@ -214,12 +214,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #8fc049;
+  color: #cc0000;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #668c30;
+  color: #800000;
   text-decoration: underline;
 }
 a:focus {
@@ -448,10 +448,10 @@ mark,
   color: #777777;
 }
 .text-primary {
-  color: #8fc049;
+  color: #cc0000;
 }
 a.text-primary:hover {
-  color: #749f37;
+  color: #990000;
 }
 .text-success {
   color: #3c763d;
@@ -479,10 +479,10 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #8fc049;
+  background-color: #cc0000;
 }
 a.bg-primary:hover {
-  background-color: #749f37;
+  background-color: #990000;
 }
 .bg-success {
   background-color: #dff0d8;
@@ -1224,8 +1224,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #8fc049;
-  border-color: #82b23e;
+  background-color: #cc0000;
+  border-color: #b30000;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -1234,8 +1234,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #749f37;
-  border-color: #61842e;
+  background-color: #990000;
+  border-color: #750000;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -1260,11 +1260,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #8fc049;
-  border-color: #82b23e;
+  background-color: #cc0000;
+  border-color: #b30000;
 }
 .btn-primary .badge {
-  color: #8fc049;
+  color: #cc0000;
   background-color: #ffffff;
 }
 .btn-success {
@@ -1448,7 +1448,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #8fc049;
+  color: #cc0000;
   font-weight: normal;
   border-radius: 0;
 }
@@ -1469,7 +1469,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #668c30;
+  color: #800000;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -1669,7 +1669,7 @@ Then, run this script to get the list.
   color: #3f51b5;
 }
 .btn-primary.btn-flat:not(.btn-link) {
-  color: #8fc049;
+  color: #cc0000;
 }
 .btn-success.btn-flat:not(.btn-link) {
   color: #0f9d58;
@@ -2557,7 +2557,7 @@ Then, run this script to get the list.
   color: #333333;
 }
 .btn-primary:not(.btn-link):not(.btn-flat) {
-  background-color: #8fc049;
+  background-color: #cc0000;
   color: #333333;
 }
 .btn-success:not(.btn-link):not(.btn-flat) {
@@ -3765,7 +3765,7 @@ Then, run this script to get the list.
 .btn.btn-fab-primary,
 .btn.btn-fab:hover-primary,
 .btn.btn-fab:active-primary {
-  background-color: #8fc049;
+  background-color: #cc0000;
 }
 .btn.btn-fab-success,
 .btn.btn-fab:hover-success,
@@ -5264,7 +5264,7 @@ Then, run this script to get the list.
   background-color: #3f51b5;
 }
 .open > .dropdown-toggle.btn-primary {
-  background-color: #8fc049;
+  background-color: #cc0000;
 }
 .open > .dropdown-toggle.btn-success {
   background-color: #0f9d58;
@@ -6251,7 +6251,7 @@ select[multiple].form-control.focus {
 }
 .form-control-wrapper .form-control:focus ~ .material-input:after,
 .form-control-wrapper .form-control.focus ~ .material-input:after {
-  background-color: #8fc049;
+  background-color: #cc0000;
 }
 .form-control-wrapper .form-control:focus:invalid ~ .material-input:before,
 .form-control-wrapper .form-control.focus:invalid ~ .material-input:before,
@@ -6268,7 +6268,7 @@ select[multiple].form-control.focus {
   width: 100%;
   left: 0;
   height: 2px;
-  background-color: #8fc049;
+  background-color: #cc0000;
   bottom: -1px;
   transform: scaleX(0);
   transition: transform 0s;
@@ -6355,7 +6355,7 @@ select[multiple].form-control.focus {
 }
 .form-group .material-input:before,
 .form-group-default .material-input:before {
-  background-color: #8fc049;
+  background-color: #cc0000;
 }
 .form-group-black .material-input:before {
   background-color: #000000;
@@ -6367,7 +6367,7 @@ select[multiple].form-control.focus {
   background-color: #3f51b5;
 }
 .form-group-primary .material-input:before {
-  background-color: #8fc049;
+  background-color: #cc0000;
 }
 .form-group-success .material-input:before {
   background-color: #0f9d58;
@@ -7238,7 +7238,7 @@ select[multiple].form-control.focus {
 }
 .form-group input.form-control:focus ~ .material-input:after,
 .form-group-default input.form-control:focus ~ .material-input:after {
-  background-color: #8fc049;
+  background-color: #cc0000;
 }
 .form-group-black input.form-control:focus ~ .material-input:after {
   background-color: #000000;
@@ -7250,7 +7250,7 @@ select[multiple].form-control.focus {
   background-color: #3f51b5;
 }
 .form-group-primary input.form-control:focus ~ .material-input:after {
-  background-color: #8fc049;
+  background-color: #cc0000;
 }
 .form-group-success input.form-control:focus ~ .material-input:after {
   background-color: #0f9d58;
@@ -8121,7 +8121,7 @@ select[multiple].form-control.focus {
 }
 .form-group input.form-control.focus ~ .material-input:after,
 .form-group-default input.form-control.focus ~ .material-input:after {
-  background-color: #8fc049;
+  background-color: #cc0000;
 }
 .form-group-black input.form-control.focus ~ .material-input:after {
   background-color: #000000;
@@ -8133,7 +8133,7 @@ select[multiple].form-control.focus {
   background-color: #3f51b5;
 }
 .form-group-primary input.form-control.focus ~ .material-input:after {
-  background-color: #8fc049;
+  background-color: #cc0000;
 }
 .form-group-success input.form-control.focus ~ .material-input:after {
   background-color: #0f9d58;
@@ -9016,7 +9016,7 @@ select[multiple].form-control.focus {
   color: #3f51b5;
 }
 .form-group-primary .control-label {
-  color: #8fc049;
+  color: #cc0000;
 }
 .form-group-success .control-label {
   color: #0f9d58;
@@ -9887,7 +9887,7 @@ select[multiple].form-control.focus {
 }
 .form-group input.form-control:not(.empty) ~ .floating-label,
 .form-group-default input.form-control:not(.empty) ~ .floating-label {
-  color: #8fc049;
+  color: #cc0000;
 }
 .form-group-black input.form-control:not(.empty) ~ .floating-label {
   color: #000000;
@@ -9899,7 +9899,7 @@ select[multiple].form-control.focus {
   color: #3f51b5;
 }
 .form-group-primary input.form-control:not(.empty) ~ .floating-label {
-  color: #8fc049;
+  color: #cc0000;
 }
 .form-group-success input.form-control:not(.empty) ~ .floating-label {
   color: #0f9d58;
@@ -10819,12 +10819,15 @@ select.form-control.focus {
   height: 100%;
   z-index: 100;
 }
+#__bs_notify__ {
+  display: none!important;
+}
 .btn-primary,
 .btn-danger {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: #ffffff !important;
 }
 .btn-default {
-  color: #8fc049 !important;
+  color: #cc0000 !important;
 }
 form {
   margin: 20px 0;
@@ -10911,7 +10914,7 @@ strong {
   font-weight: 500;
 }
 header {
-  background: #8fc049;
+  background: #cc0000;
   max-height: 56px;
   line-height: 56px;
   padding: 0px 16px;
@@ -10969,7 +10972,7 @@ h5 {
   position: relative;
   background: url(../imgs/location_pointer.png) no-repeat 16px 100px;
   background-size: 40px 55px;
-  border-bottom: 1px solid #8fc049;
+  border-bottom: 1px solid #cc0000;
 }
 .appheader .distance {
   margin: 0 0 0 0;
@@ -10993,6 +10996,8 @@ h5 {
   right: 0;
   bottom: 0;
   z-index: -2;
+  background: url(../imgs/map.png) no-repeat 0 0;
+  background-size: cover;
 }
 .map iframe {
   width: 100%;
@@ -11028,8 +11033,8 @@ h5 {
   float: left;
   width: 44px;
   line-height: 40px;
-  background: #8fc049;
-  color: #4d9448;
+  background: #cc0000;
+  color: #ffffff;
   text-align: center;
   border-radius: 22px;
   border: 2px solid #fff;
@@ -11068,7 +11073,7 @@ h5 {
   color: rgba(0, 0, 0, 0.54);
 }
 .navigation-drawer ul li.active a {
-  color: #8fc049;
+  color: #cc0000;
 }
 .navigation-drawer ul li span {
   display: inline-block;
@@ -11080,7 +11085,7 @@ h5 {
   display: inline-block;
 }
 .navigation-drawer-header {
-  background: #8fc049 url(../imgs/bg-drawer.png) no-repeat 0 0;
+  background: #cc0000 url(../imgs/bg-drawer.png) no-repeat 0 0;
   background-size: cover;
   color: #ffffff;
   padding: 0 0 16px 16px;
